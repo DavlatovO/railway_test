@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 
 # Environment variables for configuration
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TOKEN = '8172278340:AAFdSmIBn9xtDgxcbrEDG8nFHGcm9sSOgjk'
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TOKEN}"
 
 @app.route("/", methods=["POST"])
